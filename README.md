@@ -7,10 +7,22 @@ This project integrates face detection using OpenCV in Python and an ESP32 micro
 ## Requirements
 
 - Python 3.x
-- OpenCV
-- Paho MQTT library
+- OpenCV (opencv-python==4.5.5.64)
+- Paho MQTT library (paho-mqtt==1.6.1)
 - ESP32 with Wi-Fi capabilities
 - Arduino IDE or code editors (e.g. VS Code Studio)
+
+## Explanation:
+
+- opencv-python==4.5.5.64: A specific version of OpenCV for consistent behavior across environments.
+- paho-mqtt==1.6.1: A specific version of the Paho MQTT client.
+
+You can install these specific versions using:
+
+```bash
+pip install -r requirements.txt
+
+```
 
 ## Code Structure
 
